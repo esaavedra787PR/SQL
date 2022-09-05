@@ -1,10 +1,11 @@
 DISTINCT:
 
 DISTINCT is used to return unique values in the output. It filters out all duplicate values in the specified column(s).
-
+______________________________________________________________________________________________________________________________
 
 Where:
 We can restrict our query results using the WHERE clause in order to obtain only the information we want.
+______________________________________________________________________________________________________________________________
 
 AS:
 
@@ -15,7 +16,18 @@ Knowing how SELECT works, suppose we have the code below:
 
 SELECT name AS 'Titles'
 FROM movies;
+______________________________________________________________________________________________________________________________
 
 
+LIKE:
 
+Like II
+The percentage sign % is another wildcard character that can be used with LIKE.
+
+This statement below filters the result set to only include movies with names that begin with the letter ‘A’:
+
+SELECT * 
+FROM movies
+WHERE name LIKE 'A%';
+______________________________________________________________________________________________________________________________
 
