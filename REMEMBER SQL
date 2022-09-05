@@ -31,3 +31,7 @@ FROM movies
 WHERE name LIKE 'A%';
 ______________________________________________________________________________________________________________________________
 
+And
+Sometimes we want to combine multiple conditions in a WHERE clause to make the result set more specific and useful.
+
+______________________________________________________________________________________________________________________________
