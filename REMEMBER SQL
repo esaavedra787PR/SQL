@@ -1,0 +1,21 @@
+DISTINCT:
+
+DISTINCT is used to return unique values in the output. It filters out all duplicate values in the specified column(s).
+
+
+Where:
+We can restrict our query results using the WHERE clause in order to obtain only the information we want.
+
+AS:
+
+AS is a keyword in SQL that allows you to rename a column or table using an alias. 
+Example: 
+The new name can be anything you want as long as you put it inside of single quotes. Here we renamed the name column as Titles.
+Knowing how SELECT works, suppose we have the code below:
+
+SELECT name AS 'Titles'
+FROM movies;
+
+
+
+
