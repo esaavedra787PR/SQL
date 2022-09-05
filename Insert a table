@@ -1,0 +1,5 @@
+CREATE TABLE table_name (
+   column1 DATA_TYPE,
+   column2 DATA_TYPE,
+   column3 DATA_TYPE
+);
