@@ -8,3 +8,7 @@ FROM TABLE;
 
 SELECT MAX(column)
 FROM TABLE; 
+
+SELECT ROUND(column , 0)
+FROM TABLE; 
+
