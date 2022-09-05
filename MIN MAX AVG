@@ -1,0 +1,10 @@
+SELECT AVG(column)
+FROM TABLE; 
+
+
+SELECT MIN(column)
+FROM TABLE; 
+
+
+SELECT MAX(column)
+FROM TABLE; 
