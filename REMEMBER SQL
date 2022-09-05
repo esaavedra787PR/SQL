@@ -15,7 +15,7 @@ The new name can be anything you want as long as you put it inside of single quo
 Knowing how SELECT works, suppose we have the code below:
 
 SELECT name AS 'Titles'
-FROM movies;
+FROM table;
 ______________________________________________________________________________________________________________________________
 
 
@@ -27,11 +27,22 @@ The percentage sign % is another wildcard character that can be used with LIKE.
 This statement below filters the result set to only include movies with names that begin with the letter ‘A’:
 
 SELECT * 
-FROM movies
+FROM table
 WHERE name LIKE 'A%';
 ______________________________________________________________________________________________________________________________
 
 And
 Sometimes we want to combine multiple conditions in a WHERE clause to make the result set more specific and useful.
 
+______________________________________________________________________________________________________________________________
+
+Limit
+Limit : We’ve been working with a fairly small table (fewer than 250 rows), but most SQL tables contain hundreds of thousands of records.
+In those situations, it becomes important to cap the number of rows in the result.
+
+For instance, imagine that we just want to see a few examples of records.
+
+SELECT *
+FROM table 
+LIMIT 10;
 ______________________________________________________________________________________________________________________________
